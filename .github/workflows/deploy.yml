@@ -6,7 +6,7 @@ on:
       - dev
 env:
   CACHE_KEY: node-deps
-  MONGODB_DB_NAME: gha_container
+  MONGODB_DB_NAME: gha_demo
 jobs:
   test:
     environment: testing
